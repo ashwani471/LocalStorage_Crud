@@ -1,0 +1,187 @@
+body{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../images/eclinicIMG.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+/* -------------------tableStructure------------ */
+
+.diffrentDiv{
+    padding: 0px;
+}
+
+/*-------------------- Form css --------------*/
+
+.main-container{
+width: 99%;
+/* height: 100vh; */
+}
+
+.left-container{
+width: 35%;
+float: left;
+height: 100vh;
+border-right: 2px solid brown;
+background-image: url(../images/eclinicIMG.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+.container{
+    float: right;
+    margin: auto;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 10px;
+    background-color: lightblue;
+    box-shadow: 10px  lightcyan;
+    position: relative;
+    color: black;
+    border: 1px solid cadetblue;
+}
+
+.Form-heading{
+    text-align: center;
+    color: black;
+    /* background-color: lawngreen; */
+}
+
+.inpt{
+    width: 211px;
+    height: 25px;
+}
+
+#btn{
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    height: 42px;
+    border: none;
+    width: 130px;
+    font-size: large;
+}
+
+#btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*----------------- Menu -------------------------------------*/
+
+.containerMenu{
+    background-color: antiquewhite;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+
+#logo{
+    width: 53px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-color: rebeccapurple;
+    background-image: url(../images/eclinicIMG.png);
+    background-size: cover;
+}
+
+#menuList{
+    /* display: flex; */
+    float: right;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#menuList li{
+width: 130px;
+float:left;
+text-align: center;
+border-right: 2px solid black;
+}
+
+#menuList li select{
+    /* list-style-type: none; */
+    /* border: none; */
+    border: none;
+    background: transparent;
+    font-size: inherit;
+    color: darkslateblue;
+}
+
+#menuList li:hover{
+    color: red;
+}
+
+#menuList a{
+    text-decoration: none;
+}
+
+/* -------------------------footer tag------------------- */
+
+footer{
+    background-color: darksalmon;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* -----------------calculator-Form---------- */
+
+#calculogo{
+    
+        width: 53px;
+        height: 35px;
+        border-radius: 50%;
+        border: 2px solid black;
+        float: left;
+        margin-left: 10px;
+        margin-top: 4px;
+        background-color: rebeccapurple;
+        background-image: url(../images/calculatorImg.webp);
+        background-size: cover;
+    
+}
+
+#calculFormDiv{
+ width: 500px;
+ margin: auto;
+ border:2px solid black ;
+ margin-top: 20px;
+ background: linear-gradient(to bottom right ,lightblue,lightgreen); background-repeat: no-repeat;
+ border-radius: 10px;
+}
+
+
+#calBtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CalBtn{
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    height: 36px;
+    color: darkblue;
+    border: 2px solid darkblue;
+    background: transparent;
+    font-size: inherit;
+}
+
+.CalBtn:hover{
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+/* --------------calculator-------------- */
+

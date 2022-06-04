@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="containerMenu">
+        <div id="calculogo"></div>
+        
+        <ul id="menuList">
+            <li><a href="calculator-form.html">CalculatorForm</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+        </ul> 
+    </div>
+
+    <div id="calculFormDiv">
+        <pre>
+         FirstNumber   :  <input type="number" id="FirstNo" /> <p class="error" id="error1"></p>       
+         SecondNumber  :  <input type="number" id="secondNo"  /> <p class="error" id="error2"></p>
+                            
+         Result        :  <span id="result"></span>
+
+         <div id="calBtn">
+             <button id="Add" class="CalBtn">Add</button>
+             <button id="Sub" class="CalBtn">Sub</button>
+             <button id="Mul" class="CalBtn">Mul</button>
+             <button id="Div" class="CalBtn">Div</button>
+         </div>
+        </pre>
+
+    </div>
+
+    <footer>@copyright 2022</footer>
+    <script src="../js/calculatorForm.js"></script>
+
+    <!-- <script>
+
+    function checkLength(len){
+        console.log(len);
+        
+        if(len>6 || len<1){
+            var error= document.getElementById('error1');
+          error.innerText='pls Enter val in between 1 to 6';
+          error.style.color='red';
+        }
+    }
+
+     function getvalue(){
+        const val1= document.getElementById('FirstNo').value;
+        console.log(val1);
+        var len=val1.length;
+        checkLength(len);
+
+        // const val2=document.getElementById('secondNo').value;
+        // console.log(val2);
+     }
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="containerMenu">
+        <div id="logo"></div>
+        <ul id="menuList">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href=""><select>
+                <option>Product</option>
+                <option>Product1</option>
+                <option>Product2</option>
+            </select></a></li>
+             <li><a href="registrationForm.html">REGISTRATION</a></li>
+        </ul>
+    </div>
+    <div class="main-container">
+        <div class="left-container">
+          <p style="color: blueviolet;
+          margin-top: 64%;width: 90%; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, rerum placeat incidunt necessitatibus hic aliquam dolorum quaerat illum nihil, nostrum architecto sit a quia error perferendis dolorem facere sequi eos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim animi placeat dignissimos harum dolor a! Minus dolore corporis sed ad unde quia, praesentium soluta? Dicta quam officia fuga consequatur eius?
+          e quae? Odio soluta obcaecati illum, tempora consectetur suscipit similique corrupti quidem dolorem harum animi eaque expedita quasi voluptatibus!</p>
+        </div>
+    <div class="container">
+    <h3 class="Form-heading">Basic Form Detail of User</h3>
+    <form action="" onsubmit="" id="addInfo">
+        <pre >
+            Name       : <input type="text" placeholder="Enter your name" class="inpt" id="name" /> <p id="errorName"></p>
+
+            Email      : <input type="email" placeholder="Enter your Email" class="inpt" id="Email" /> <p id="errorEmail"></p>
+
+            Gender     : <input type="radio" name="gender" class="gender" value="Male"/> Male <input type="radio" name="gender" class="gender" value="Female" /> Female 
+
+            Course     : <input type="checkbox" class="course" name="course" id="course"/> React <input type="checkbox" class="course" name="course" /> Angular <input class="course" name="course" type="checkbox" /> Vue
+
+            Select Age : <Select id="age">
+                <option> <18yrs</option>
+                <option>18yrs-25yrs</option>
+                <option>26yrs-40yrs</option>
+                <option>40yrs-50yrs</option>
+                <option>>50yrs</option>
+            </Select>
+
+            Address    : <textarea placeholder="Enter your Address here" id="address"></textarea> <p id="errorAddress"></p>
+
+            <input type="submit" id="btn" style="cursor: pointer;" value="Register">
+
+            <input type="submit" id="updateBtn" style="cursor: pointer;color: white; background-color: brown;
+            border-radius: 5px; height: 42px; border: none;        width: 130px; text-align: center;
+            font-size: large;" value="Update">
+            <!-- <button type="submit" id="btn" style="cursor: pointer;"  >Register</button> -->
+        </pre>
+
+       
+        <!-- <button type="submit" >Register</button> -->
+    </form>
+    </div>
+    <div id="userData" style="margin-bottom:100px ;">
+        <table border="1" style="text-align:center">
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Address</th>
+                <th id="Action">Action</th>
+            </thead>
+            <tbody id="tbl">
+              
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <script src="../js/script1.js" ></script>
+    <!-- <script src="../js/userinfo.js"></script> -->
+</body>
+<footer>@copyright 2022</footer>
+</html>
